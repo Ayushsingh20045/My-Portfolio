@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+@import "tailwindcss";
+html{
+  scroll-behavior: smooth;
+}
+
+/* ===== Custom Scrollbar ===== */
+
+/* Chrome, Edge */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    45deg,
+    #6a6969,
+    #3a3a39,
+    #2a2830,
+    #2b292a,
+    #121212
+  );
+  border-radius: 10px;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.8;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2e2e37 #040404;
+}
+
+.nav-item{
+  position: relative;
+  
+}
+.nav-item::after{
+  content: "";
+  position: absolute;
+  left:0;
+  bottom:-4px;
+  width: 0%;
+  height: 1px;
+  background: #3b82f6;
+  transition: all 0.3s ease;
+}
+
+.nav-item:hover::after{
+  width: 100%;
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1px #50A2FF;
+}
+.stroke-textInfo {
+  -webkit-text-stroke: 1px #c8f31c;
+}
+.formbtn{
+  position: relative;
+  overflow: hidden;
+   color: white;
+   z-index: 99;
+}
+.formbtn::after{
+  content: "";
+  position: absolute;
+  left:0;
+  bottom:0;
+  background:#0e59af;
+  width: 0%;
+  height: 60px;
+  transition: all ease-in-out .3s;
+  z-index: -1;
+  
+  
+}
+.formbtn:hover::after{
+  width: 100%;
+}
