@@ -1,7 +1,7 @@
 import React from "react";
 import projectData from "../data/ProjectData";
 import HeadingAnim from "./HeadingAnim";
-import { span } from "motion/react-client";
+
 import { IconBrandGithub, IconLiveViewFilled } from "@tabler/icons-react";
 import { ExternalLink } from "lucide-react";
 const Projects = () => {
@@ -42,14 +42,22 @@ const Projects = () => {
               </div>
 
               <div className="links border-t border-gray-400 mt-4 flex gap-6  items-center justify-end">
-                        <button target="_blank" className="px-2 hover:scale-110 py-2 border border-blue-400  transition duration-200 ease-in-out hover:border-blue-600 cursor-pointer mt-4 rounded-full ">
-                            <a href="https://github.com/Ayushsingh20045">  <IconBrandGithub /></a>
-                </button>
-                <button className="px-2 hover:scale-110 transition duration-200 ease-in-out py-2 border border-blue-400 hover:border-blue-600 cursor-pointer mt-4 rounded-full">
-                            <a target="_blank" href={project.link}>
-                    <ExternalLink />
-                  </a>
-                </button>
+                        <a
+                            href="https://github.com/Ayushsingh20045"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-2 hover:scale-110 py-2 border border-blue-400 transition duration-200 ease-in-out hover:border-blue-600 cursor-pointer mt-4 rounded-full"
+                        >
+                            <IconBrandGithub />
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            href={project.link}
+                            className="px-2 hover:scale-110 transition duration-200 ease-in-out py-2 border border-blue-400 hover:border-blue-600 cursor-pointer mt-4 rounded-full"
+                        >
+                            <ExternalLink />
+                        </a>
               </div>
             </div>
           </div>
