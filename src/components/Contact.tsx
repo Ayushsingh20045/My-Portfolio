@@ -101,7 +101,7 @@ const form =useRef();
               <label className='text-sm text-gray-400 tracking-wide'>Message</label>
               <textarea required rows={6} name="message" placeholder="Tell me about your project..." className='w-full px-1 outline-none bg-gray-800  rounded-sm text-lg py-1'></textarea>
            </div>
-            <button className='formbtn flex gap-2 text-lg w-full bg-blue-900 py-4 px-4 mb-6 items-center justify-center rounded-4xl cursor-pointer'>Send Message <ArrowUpRightFromSquare/></button>
+            <button type='submit' className='formbtn flex gap-2 text-lg w-full bg-blue-900 py-4 px-4 mb-6 items-center justify-center rounded-4xl cursor-pointer'>Send Message <ArrowUpRightFromSquare/></button>
           </form>
          
         </div>
