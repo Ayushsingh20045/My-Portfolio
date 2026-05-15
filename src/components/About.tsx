@@ -40,7 +40,7 @@ const About = () => {
                       <p className='text-lg pl-2 md:pr-6 mb-2 flex-nowrap text-gray-400'>I'm a Full Stack Developer with a passion for building products that are fast, accessible, and genuinely useful. I've worked across fintech, e-commerce, and SaaS — each project sharpening my ability to balance technical depth with real-world constraints.</p>
              
                       <p className='text-lg pl-2 md:pr-6 text-gray-400'>I thrive across the full cycle: architecting databases, crafting APIs, polishing UIs, and shipping to production. The best code is the code your users never have to think about.</p>
-                      <a href="/public/NewMainResume.pdf"
+                      <a href="/NewMainResume.pdf"
                     download
                           target='_blank'>
              <div className="btn flex gap-2 justify-center items-center border w-fit px-8 py-3 rounded-4xl text-lg mt-8 md:mt-4 text-center cursor-pointer hover:bg-neutral-900 transition  text-gray-300">
