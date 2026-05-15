@@ -50,7 +50,7 @@ const Navbar = () => {
                 <a href="#contact" className="nav-item">Contact</a>
               </li>
               <li>
-                <a href="/public/NewMainResume - Copy.pdf" 
+                <a href="/public/NewMainResume.pdf" 
                 target='_blank'
                 className="nav-item">Resume</a>
               </li>
