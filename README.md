@@ -2,10 +2,6 @@
 
 A modern and fully responsive personal portfolio website built to showcase my projects, technical skills, experience, and development journey as a Full Stack Developer.
 
-## 🌐 Live Demo
-🔗my-portfolio-m698.vercel.app
-
----
 
 # ✨ Features
 
