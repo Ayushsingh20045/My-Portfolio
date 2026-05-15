@@ -35,6 +35,7 @@ A modern and fully responsive personal portfolio website built to showcase my pr
 - Framer Motion
 - EmailJS
 - Vercel
+- Acertinity-ui
 
 ---
 
