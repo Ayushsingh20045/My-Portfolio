@@ -190,6 +190,7 @@ const Navbar = () => {
               <motion.li
                 variants={navItem}
                 whileHover={{ y: -2 }}
+                
               >
                 <a
                   href="/NewMainResume.pdf"
