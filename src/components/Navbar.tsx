@@ -130,7 +130,7 @@ const Navbar = () => {
                   href="/FullStack_Resume.pdf"
                   target='_blank'
                   rel="noopener noreferrer"
-                  download
+                  
                   className='text-white text-3xl font-semibold tracking-wide'
                 >
                   Resume
