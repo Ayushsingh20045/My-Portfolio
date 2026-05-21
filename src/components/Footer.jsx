@@ -77,7 +77,7 @@ const Footer = () => {
           <motion.a
             variants={item}
             whileHover={{ y: -3 }}
-            href="/NewMainResume.pdf"
+            href="/FullStack_Resume.pdf"
             target="_blank"
             className="font-medium text-gray-400 hover:text-gray-300 transition-all"
           >

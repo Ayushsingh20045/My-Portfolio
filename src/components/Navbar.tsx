@@ -193,7 +193,7 @@ const Navbar = () => {
                 
               >
                 <a
-                  href="/NewMainResume.pdf"
+                  href="/FullStack_Resume.pdf"
                   target='_blank'
                   className="nav-item"
                 >
