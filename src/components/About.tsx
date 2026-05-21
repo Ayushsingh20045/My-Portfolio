@@ -97,10 +97,11 @@ const About = () => {
                             variants={item}
                             whileHover={{ scale: 1.04, y: -3 }}
                             whileTap={{ scale: 0.96 }}
-                            href="/NewMainResume.pdf"
+                            href="/FullStack_Resume.pdf"
                             download
                             target='_blank'
                         >
+                            
                             <div className="btn flex gap-2 justify-center items-center border w-fit px-8 py-3 rounded-4xl text-lg mt-8 md:mt-4 text-center cursor-pointer hover:bg-neutral-900 transition text-gray-300">
 
                                 Download Resume
